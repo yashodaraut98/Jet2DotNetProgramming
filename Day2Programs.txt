@@ -1,0 +1,36 @@
+using System;
+
+
+
+ class Training
+{ 
+
+    public void Skills()
+    {
+        Console.WriteLine("Learning");
+
+    }
+       static void Main()
+        {
+          Training yashoda = new Training();
+          yashoda.Skills();
+        }
+}
+
+using System;
+
+class BoxUnBox{
+
+
+
+    public static void Main()
+    {
+        Object yashoda = 10.56;//...... boxing.... coverting value to refrernce type
+       // double d = yashoda;// showing error becz we are tring to unbox it......coverting reference type to value type its unboxing 
+                           // for unboxing type conversion in needed.
+          double d = Convert.ToDouble(yashoda);
+        Console.WriteLine(d);
+
+    }
+
+}
